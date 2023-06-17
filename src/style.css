@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: green;
+}
+.cont {
+  display: flex;
+  margin-top: 1rem;
+  width: 250px;
+  height: 350px;
+  border-radius: 5%;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.figure1 {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.number {
+  margin: auto;
+  font-size: 60px;
+}
+
+.figure2 {
+  margin: 20px;
+  font-size: 40px;
+  align-self: flex-end;
+}
+
+button {
+  margin-top: 10px;
+}
